@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Backbone.js app template : Create a new Backbone.js app, using Joshfire Framework" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Backbone.js app template</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/nicolsc/new-backbone-app">View on GitHub</a>
+
+          <h1 id="project_title">Backbone.js app template</h1>
+          <h2 id="project_tagline">Create a new Backbone.js app, using Joshfire Framework</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/nicolsc/new-backbone-app/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/nicolsc/new-backbone-app/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>New application template</h1>
+
+<p>Comes with</p>
+
+<ul>
+<li>Joshfire framework, based on Backbone.js</li>
+<li>Grunt tasks
+
+<ul>
+<li>Sass compiling</li>
+<li>JS optimizing</li>
+</ul>
+</li>
+<li>Views/Controllers Structure
+
+<ul>
+<li>Home View is a List menu + an Item</li>
+<li>Stuff is whatever you want it to be</li>
+</ul>
+</li>
+</ul><h2>Init</h2>
+
+<h3>Joshfire Framework</h3>
+
+<pre><code>$ git submodule update --init --recursive
+</code></pre>
+
+<h3>Dependencies</h3>
+
+<pre><code>$ npm install
+</code></pre>
+
+<h3>Sass</h3>
+
+<pre><code>$ sudo gem install compass
+</code></pre>
+
+<h2>Grunt tasks</h2>
+
+<pre><code>$ grunt watch
+</code></pre>
+
+<p>Run in the background
+To watch for .scss file modification &amp; update css files</p>
+
+<pre><code>$ grunt joshoptimize
+</code></pre>
+
+<p>To optimize your JS
+Debug app is <code>./index.html</code>
+Optimized app is <code>./index.optimized.html</code></p>
+
+<h2>Data ?</h2>
+
+<p>Even if this a boilerplate, i added two datasources from <code>datajs.com</code>
+A RSS Feed, used for the menu &amp; the details view, and a Google News entry for the home page</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Backbone.js app template maintained by <a href="https://github.com/nicolsc">nicolsc</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
