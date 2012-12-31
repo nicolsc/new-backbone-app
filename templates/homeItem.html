@@ -1,0 +1,13 @@
+<section>
+	<div class="home-img">
+		<% if (item.image){%>
+			<img src="<%=item.image.contentURL%>" />
+		<% } else {%>
+			<img src="http://lorempixel.com/g/300/200/sports/" />	
+		<% }%>
+	</div>
+	<h2><a href="<%=item.url%>" target="_blank"><%=item.name%></a></h2>
+	<div class="home-desc">
+		<%=item.description%>
+	</div>
+</section>

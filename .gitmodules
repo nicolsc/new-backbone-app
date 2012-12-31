@@ -1,0 +1,3 @@
+[submodule "joshfire-framework"]
+	path = joshfire-framework
+	url = https://github.com/joshfire/joshfire-framework.git

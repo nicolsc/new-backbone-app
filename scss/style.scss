@@ -1,0 +1,40 @@
+@import "_mixins";
+@import "_colors";
+@import "splash";
+@import "home";
+@import "stuff";
+body{
+	margin:0;
+	position:relative;
+	background:$lightgray;
+	overflow:hidden;
+	width:1067px;
+	height:600px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 100;
+}
+h1, h2, h3{
+	text-shadow:#fff 1px 1px 1px;
+}
+h1{
+	font-weight:300;
+	text-align:center;
+	margin-bottom:20px;
+}
+h2
+{
+	font-weight:200;
+}
+h3{
+	font-weight:100;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+ul{
+	list-style-type:none;
+}
+li{
+	line-height:150%;
+}
