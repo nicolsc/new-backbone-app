@@ -58,7 +58,10 @@ define([
     },
     models: {
     },
-
+    /* timers */
+    timers:{
+      autoHide:5000//hide errors msg after 5 secs
+    },
     /* Debug utility - mirrors to console.log*/
     debug:function debug(type, data){
       if (this.dev && window.console){
@@ -93,7 +96,7 @@ define([
         self.debug('App init: API Callback called');
 
         if (!self.API.data) {
-          self.debug('missing data');
+          self.hideSplashscreen();
           self.error('Missing data', self.dictionary.errors.missingData, {autoHide: false});
           return;
         }

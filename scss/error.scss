@@ -1,0 +1,26 @@
+#error{
+	position:absolute;
+	display:none;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	
+
+	.error-box{
+		position:absolute;
+		top:43%;
+		bottom:43%;
+		left:40%;
+		right:40%;
+		background-color:$red;
+		text-align:center;
+		text-shadow:#000 1px 1px 1px;
+		border-radius:10px;
+		padding-top:18px;
+		color:#fff;
+		letter-spacing:1px;
+
+	}
+	
+}

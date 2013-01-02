@@ -6,6 +6,29 @@
   text-shadow: #fff 1px 1px 1px;
 }
 
+#error {
+  position: absolute;
+  display: none;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+#error .error-box {
+  position: absolute;
+  top: 43%;
+  bottom: 43%;
+  left: 40%;
+  right: 40%;
+  background-color: #d1022f;
+  text-align: center;
+  text-shadow: #000 1px 1px 1px;
+  border-radius: 10px;
+  padding-top: 18px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
 .home-item {
   width: 60%;
   line-height: 150%;
@@ -59,6 +82,7 @@ h1, h2, h3 {
 
 h1 {
   font-weight: 300;
+  letter-spacing: 3px;
   text-align: center;
   margin-bottom: 20px;
 }
