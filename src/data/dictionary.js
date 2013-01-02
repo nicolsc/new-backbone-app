@@ -1,8 +1,11 @@
 define([], function() {
 	'use strict';
 	return {
-		errors:{
-			unknown : 'Unknown error'
+		en:{
+			errors:{
+				missingData:'Missing data',
+				unknown : 'Unknown error'
+			}
 		}
 	};
 });

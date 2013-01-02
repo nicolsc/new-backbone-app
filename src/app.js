@@ -48,6 +48,7 @@ define([
 
 
   window.app = _.extend(App.prototype, {
+    lang:'en',
     dev:true,
     dictionary: dictionary,
     // Holds references to all the app's views
@@ -97,7 +98,7 @@ define([
 
         if (!self.API.data) {
           self.hideSplashscreen();
-          self.error('Missing data', self.dictionary.errors.missingData, {autoHide: false});
+          self.error('Missing data', self.dictionary[self.lang].errors.missingData, {autoHide: false});
           return;
         }
 
